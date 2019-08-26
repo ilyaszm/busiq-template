@@ -54,4 +54,19 @@ $(document).ready(function() {
             $('.slide.last').addClass('active');
         }
     }
-});
+
+    // NAVBAR SCRIPT
+    window.onscroll = function() { scroll() }
+
+    function scroll() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600 ) {
+            document.getElementById("navbar").style.background = "#222"
+            document.getElementById("navbar").style.padding = ".3rem"
+        }
+        else {
+            document.getElementById("navbar").style.background = "transparent"
+            document.getElementsById("navbar").style.padding = ".5rem"
+        }
+    }
+
+})
