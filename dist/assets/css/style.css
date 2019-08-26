@@ -243,6 +243,72 @@ body {
     font-size: 2rem
 }
 
+/* OUR TEAM SECTION STYLE */
+#team-section {
+    background: #121212;
+    padding: 4rem 0
+}
+
+.card-group {
+    width: 75%;
+    margin: 0 auto
+}
+
+.card {
+    border: none;
+    background: var(--darkTransBlue)
+}
+
+.card-footer i {
+    font-size: 1rem
+}
+
+.card-footer a {
+    color: #666;
+    transition: all .3s ease-in-out
+}
+
+.card-footer a:hover {
+    color: var(--middleBlue)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
