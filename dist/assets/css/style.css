@@ -1,3 +1,9 @@
+/*
+    BUSIQ template by IZEMSPOT
+    izemspot.netlify.com
+    Free for personal and commercial use under the MIT License
+*/
+
 /*  Root variables  */
 :root {
     --paleBlue: #45aca3;
@@ -50,6 +56,10 @@ body {
     background: var(--middleBlue);
     border: 1px solid var(--middleBlue)
 }
+
+/*
+    INDEX PAGE STYLE
+*/
 
 /* NAVBAR STYLE */
 .navbar-brand {
@@ -321,6 +331,40 @@ footer li:hover {
 .bottom-footer {
     text-align: center !important
 }
+
+/*
+    ABOUT PAGE STYLE
+*/
+#about-navbar {
+    background: #222
+}
+
+#bg-about {
+    background: #ddd;
+    padding: 4rem 0
+}
+
+.text-about, .text-address {
+    font-family: var(--karlaFont);
+    font-size: 1.2rem
+}
+
+.icon {
+    color: var(--darkBlue);
+    transition: all .3s ease-in-out
+}
+
+.icon:hover {
+    color: var(--middleBlue)
+}
+
+
+
+
+
+
+
+
 
 
 
