@@ -31,6 +31,18 @@ body {
     border: 1px solid var(--middleBlue)
 }
 
+.dark-button {
+    outline: none;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 1px
+}
+
+.dark-button:hover {
+    background: var(--middleBlue);
+    border: 1px solid var(--middleBlue)
+}
+
 /* NAVBAR STYLE */
 .navbar-brand {
     color: #fff !important;
@@ -193,7 +205,7 @@ body {
 #services-section {
     background: url(../img/service-bg.png) center center no-repeat;
     background-size: cover;
-    padding: 8rem 0
+    padding: 6rem 0
 }
 
 .med {
@@ -272,10 +284,10 @@ body {
     color: var(--middleBlue)
 }
 
-
-
-
-
+/* NEWSLETTER SECTION STYLE */
+#newsletter-section {
+    padding: 4rem 0;
+}
 
 
 
@@ -339,6 +351,10 @@ body {
         font-size: 3rem
     }
 
+    #newsletter-section .col-12 {
+        max-width: 75%
+    }
+
 }
 
 /* Large devices (desktops, 992px and down) */
@@ -360,6 +376,10 @@ body {
     }
     .slide-para {
         font-size: 1.5rem
+    }
+
+    #newsletter-section .col-12 {
+        max-width: 50%
     }
 
 }
