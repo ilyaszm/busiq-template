@@ -19,6 +19,14 @@ body {
     font-family: var(--dosisFont)
 }
 
+.section-title {
+    font-size: 1.8rem
+}
+
+.section-subtitle {
+    font-size: 1.4rem
+}
+
 .light-button {
     outline: none;
     color: #eee;
@@ -118,7 +126,7 @@ body {
 }
 
 .slide-title {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     background: rgba(238, 238, 238, 0.6);
@@ -286,9 +294,15 @@ body {
 
 /* NEWSLETTER SECTION STYLE */
 #newsletter-section {
-    padding: 4rem 0;
+    padding: 1rem 0;
 }
 
+/* CONTACT SECTION STYLE */
+#contact-section {
+    background: url(../img/contact-bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 4rem 0
+}
 
 
 
@@ -341,14 +355,14 @@ body {
 @media (min-width: 768px) {
 
     .slide-title {
-        font-size: 3.5rem
+        font-size: 3.2rem
     }
     .slide-para {
         font-size: 1.2rem
     }
 
     .section-title {
-        font-size: 3rem
+        font-size: 2.6rem
     }
 
     #newsletter-section .col-12 {
