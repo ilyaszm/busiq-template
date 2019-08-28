@@ -45,7 +45,7 @@ body {
     border: 1px solid var(--middleBlue)
 }
 
-.dark-button {
+/*.dark-button {
     outline: none;
     color: #333;
     border: 1px solid #333;
@@ -55,6 +55,12 @@ body {
 .dark-button:hover {
     background: var(--middleBlue);
     border: 1px solid var(--middleBlue)
+}*/
+
+#about-navbar,
+#contact-navbar,
+#service-navbar {
+    background: #222
 }
 
 /*
@@ -241,7 +247,7 @@ body {
     border: 1.5px solid var(--darkBlue);
     border-radius: 2px;
     margin-top:10px;
-    margin-bottom:10px;
+    margin-bottom:10px
 }
 
 .item-services:after {
@@ -254,18 +260,18 @@ body {
     top: -40px;
     border-radius: 100px;
     right: -40px;
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
 }
 
 .item-services:hover {
     margin-top: -10px;
     border: 1px solid var(--mainBlue);
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
 }
  
 .item-services:hover:after {
     border: 4px solid var(--mainBlue);
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
 }
 
 .service-ico {
@@ -336,13 +342,7 @@ footer li:hover {
     ABOUT PAGE STYLE
 */
 
-#about-navbar,
-#contact-navbar,
-#service-navbar {
-    background: #222
-}
-
-#bg-about {
+#about-main-section {
     background: #ddd;
     padding: 4rem 0
 }
@@ -381,6 +381,18 @@ footer li:hover {
     padding: .5rem 2.5rem
 }
 
+/*
+    SERVICES PAGE STYLE
+*/
+
+#service-main-section {
+    background: #ddd;
+    padding: 4rem 0
+}
+
+#service-main-section .item-services {
+    background: var(--steelBlue)
+}
 
 
 
