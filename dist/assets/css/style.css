@@ -335,7 +335,10 @@ footer li:hover {
 /*
     ABOUT PAGE STYLE
 */
-#about-navbar {
+
+#about-navbar,
+#contact-navbar,
+#service-navbar {
     background: #222
 }
 
@@ -356,6 +359,26 @@ footer li:hover {
 
 .icon:hover {
     color: var(--middleBlue)
+}
+
+/*
+    CONTACT PAGE STYLE
+*/
+
+.list-unstyled i {
+    color: var(--mainBlue);
+    font-size: 1.2rem
+}
+
+#contact-form input,
+#contact-form textarea {
+    background: transparent;
+    border: 1px solid var(--darkBlue);
+    border-radius: 1px
+}
+
+#contactBtn {
+    padding: .5rem 2.5rem
 }
 
 
