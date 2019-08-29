@@ -45,18 +45,6 @@ body {
     border: 1px solid var(--middleBlue)
 }
 
-/*.dark-button {
-    outline: none;
-    color: #333;
-    border: 1px solid #333;
-    border-radius: 1px
-}
-
-.dark-button:hover {
-    background: var(--middleBlue);
-    border: 1px solid var(--middleBlue)
-}*/
-
 #about-navbar,
 #contact-navbar,
 #service-navbar {
@@ -66,7 +54,6 @@ body {
 /*
     INDEX PAGE STYLE
 */
-
 /* NAVBAR STYLE */
 .navbar-brand {
     color: #fff !important;
@@ -116,9 +103,7 @@ body {
 }
 
 /* SLIDESHOW STYLE */
-::-webkit-scrollbar { 
-    display: none
-}
+::-webkit-scrollbar { display: none }
 
 #slideshow {
     height: 100vh;
@@ -163,9 +148,7 @@ body {
     z-index: -1
 }
 
-.active {
-    opacity: 1
-}
+.active { opacity: 1 }
 
 .slideshow-nav {
     position: absolute;
@@ -176,13 +159,9 @@ body {
     background: transparent
 }
 
-.previous {
-    float: left
-}
+.previous { float: left }
 
-.next {
-    float: right
-}
+.next { float: right }
 
 #slideshow .nav-link {
     padding: 15px;
@@ -292,23 +271,17 @@ body {
     background: var(--darkTransBlue)
 }
 
-.card-footer i {
-    font-size: 1rem
-}
+.card-footer i { font-size: 1rem }
 
 .card-footer a {
     color: #666;
     transition: all .3s ease-in-out
 }
 
-.card-footer a:hover {
-    color: var(--middleBlue)
-}
+.card-footer a:hover { color: var(--middleBlue) }
 
 /* NEWSLETTER SECTION STYLE */
-#newsletter-section {
-    padding: 1rem 0;
-}
+#newsletter-section { padding: 1rem 0 }
 
 /* CONTACT SECTION STYLE */
 #contact-section {
@@ -323,22 +296,15 @@ footer {
     padding: 4rem 0
 }
 
-footer li {
-    transition: all .3s ease-in-out !important
-}
+footer li { transition: all .3s ease-in-out !important }
 
-footer li:hover {
-    color: var(--paleBlue) !important
-}
+footer li:hover { color: var(--paleBlue) !important }
 
-.bottom-footer {
-    text-align: center !important
-}
+.bottom-footer { text-align: center !important }
 
 /*
     ABOUT PAGE STYLE
 */
-
 #about-main-section {
     background: #ddd;
     padding: 4rem 0
@@ -361,7 +327,6 @@ footer li:hover {
 /*
     CONTACT PAGE STYLE
 */
-
 .list-unstyled i {
     color: var(--mainBlue);
     font-size: 1.2rem
@@ -374,113 +339,44 @@ footer li:hover {
     border-radius: 1px
 }
 
-#contactBtn {
-    padding: .5rem 2.5rem
-}
+#contactBtn { padding: .5rem 2.5rem }
 
 /*
     SERVICES PAGE STYLE
 */
-
-.icon {
-    width: 2rem
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon { width: 2rem }
 
 /* MEDIA QUERIES */
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
-    .slide-title {
-        font-size: 3rem
-    }
-
+    .slide-title { font-size: 3rem }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .slide-title { font-size: 3.2rem }
 
-    .slide-title {
-        font-size: 3.2rem
-    }
-    .slide-para {
-        font-size: 1.2rem
-    }
+    .slide-para { font-size: 1.2rem }
 
-    .section-title {
-        font-size: 2.6rem
-    }
+    .section-title { font-size: 2.6rem }
 
-    footer .col-12 {
-        max-width: 75%
-    }
-
+    footer .col-12 { max-width: 75% }
 }
 
 /* Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
-
     .navbar-collapse {
         background: var(--paleTransBlue);
         padding: 2rem;
         border-radius: 1px
     }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    
-    .slide-title {
-        font-size: 4rem
-    }
-    .slide-para {
-        font-size: 1.5rem
-    }
+    .slide-title { font-size: 4rem }
 
-    footer .col-12 {
-        max-width: 50%
-    }
+    .slide-para { font-size: 1.5rem }
 
+    footer .col-12 { max-width: 50% }
 }

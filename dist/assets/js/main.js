@@ -69,4 +69,7 @@ $(document).ready(function() {
         }
     }
 
+    // WOW ANIMATE SCRIPT
+    new WOW().init()
+
 })
