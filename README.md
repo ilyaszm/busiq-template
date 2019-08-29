@@ -6,7 +6,6 @@ BUSIQ is a HTML5 template representing a fiction fixing cars agency with a nice 
 
 ## Technologies
 
-* React js
 * HTML5
 * CSS3
 * Bootstrap 4
